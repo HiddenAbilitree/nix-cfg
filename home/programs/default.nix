@@ -6,6 +6,7 @@
     ./hyprpaper
     ./kitty
     ./neovim
+    ./pipewire
     ./rofi
     #./sops-nix
     ./starship

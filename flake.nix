@@ -20,6 +20,7 @@
         system = "x86_64-linux";
         modules = [
           ./nixos/configuration.nix
+          ./hibernate.nix
           home-manager.nixosModules.home-manager
           {
             home-manager.useGlobalPkgs = true;

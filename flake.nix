@@ -16,7 +16,7 @@
       ...
     }:
     {
-      homeConfigurations.loser = nixpkgs.lib.nixosSystem {
+      nixosConfigurations.loser = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
           ./nixos/configuration.nix

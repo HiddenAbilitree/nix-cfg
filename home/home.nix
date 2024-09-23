@@ -1,8 +1,7 @@
-{ hyprland, pkgs, ... }:
+{ pkgs, ... }:
 {
 
   imports = [
-    hyprland.homeManagerModules.default
     ./programs
     #./scripts
     #./themes
@@ -25,6 +24,9 @@
   # environment.
 
   home.packages = with pkgs; [
+
+    # window manager
+    hyprland
 
     # related tools
     hyprpaper

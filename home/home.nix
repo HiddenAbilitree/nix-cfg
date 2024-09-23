@@ -7,9 +7,10 @@
     #./themes
   ];
 
-  home.username = "ezhang";
-  home.homeDirectory = "/home/ezhang";
-
+  home = {
+    username = "ezhang";
+    homeDirectory = "/home/ezhang";
+  };
   # This value determines the Home Manager release that your configuration is
   # compatible with. This helps avoid breakage when a new Home Manager release
   # introduces backwards incompatible changes.

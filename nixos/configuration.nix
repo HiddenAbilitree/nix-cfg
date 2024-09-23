@@ -8,8 +8,7 @@
 {
   imports = [
     # Include the results of the hardware scan.
-    ./hibernate.nix
-    ./version.nix
+    #./hibernate.nix
     ./hardware-configuration.nix
   ];
 

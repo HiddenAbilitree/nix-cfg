@@ -10,7 +10,7 @@
     font = {
       name = "FiraCode";
     };
-    themeFile = "Tokyo Night Storm";
+    themeFile = "tokyo_night_storm";
     settings = {
       background_opacity = "0.75";
       enable_audio_bell = false;

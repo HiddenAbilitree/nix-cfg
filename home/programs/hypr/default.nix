@@ -18,8 +18,8 @@
         decoration = {
           rounding = "10";
           blur = {
-            size = "3";
-            passes = "1";
+            size = "0";
+            passes = "0";
             vibrancy = "0.1696";
           };
         };

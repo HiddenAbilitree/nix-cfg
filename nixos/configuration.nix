@@ -108,7 +108,7 @@
     wl-clipboard
     playerctl
     brightnessctl
-    xev
+    xorg.xev
   ];
 
   services.fprintd.enable = true;

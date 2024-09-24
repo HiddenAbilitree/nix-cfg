@@ -14,7 +14,7 @@
         height = 15;
         width = 30;
         padding = {
-          top = 2;
+          top = 3;
           left = 3;
         };
       };
@@ -40,8 +40,8 @@
           keyColor = "";
         }
         {
-          type = "host";
-          key = "   ";
+          type = "users";
+          key = "   󰙃";
           keyColor = "cyan";
         }
 
@@ -92,6 +92,7 @@
           key = "   ";
           keyColor = "blue";
         }
+        "break"
         "break"
         {
           type = "lm";

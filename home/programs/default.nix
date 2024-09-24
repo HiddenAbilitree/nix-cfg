@@ -1,5 +1,6 @@
 {
   imports = [
+    ./fastfetch
     ./git
     ./hypr
     ./hyprlock

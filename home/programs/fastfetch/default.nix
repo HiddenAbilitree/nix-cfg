@@ -89,15 +89,10 @@
         }
         {
           type = "shell";
-          key = "   ";
+          key = "   ";
           keyColor = "blue";
         }
         "break"
-        {
-          type = "de";
-          key = "   ";
-          keyColor = "cyan";
-        }
         {
           type = "lm";
           key = "   ";
@@ -109,8 +104,8 @@
           keyColor = "cyan";
         }
         {
-          type = "theme";
-          key = "   󰉼";
+          type = "terminal";
+          key = "   ";
           keyColor = "cyan";
         }
         {

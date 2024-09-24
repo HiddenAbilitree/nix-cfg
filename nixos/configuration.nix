@@ -92,7 +92,6 @@
   hardware.openrazer.enable = true;
 
   environment.systemPackages = with pkgs; [
-    fastfetch
     firefox
     fprintd
 

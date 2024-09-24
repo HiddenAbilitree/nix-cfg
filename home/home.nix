@@ -46,9 +46,11 @@
 
     # terminal
     kitty
+
+    # cli/tuis
     starship
     bottom
-    thefuck
+    fastfetch
 
     # apps
     spotify
@@ -70,6 +72,7 @@
     hunspellDicts.en_US
     hyprls
     xwaylandvideobridge
+    thefuck
 
     # development
     bun

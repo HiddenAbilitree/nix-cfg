@@ -121,8 +121,19 @@
 
         {
           type = "custom";
-          format = "┌──────────────────────Software──────────────────────┐";
+          format = "┌────────────────────────Misc.───────────────────────┐";
           keyColor = "";
+        }
+        {
+          type = "command";
+          key = "  OS Age ";
+          keyColor = "magenta";
+          text = "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days";
+        }
+        {
+          type = "uptime";
+          key = "  Uptime ";
+          keyColor = "magenta";
         }
         {
           type = "custom";

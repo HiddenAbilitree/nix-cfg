@@ -39,7 +39,7 @@
     waybar
 
     # notifications
-    swaync
+    swaynotificationcenter
 
     # app launcher
     rofi-wayland-unwrapped

@@ -6,7 +6,7 @@
     autosuggestion.enable = true;
     syntaxHighlighting.enable = true;
     autocd = true;
-    initExtra = "fetch";
+    initExtra = "fastfetch";
     shellAliases = {
       cfg = "nvim ~/nixos-cfg/";
       rebuild = "git -C ~/nixos-cfg add ./ && git -C ~/nixos-cfg/ commit -am update && git -C ~/nixos-cfg/ push && sudo nixos-rebuild switch --flake ~/nixos-cfg/# && source ~/.zshrc";

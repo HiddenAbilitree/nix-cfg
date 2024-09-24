@@ -54,7 +54,7 @@
             "temperature"
             "cpu"
             "memory"
-            "load"
+            "disk"
           ];
           "drawer" = { };
         };
@@ -141,6 +141,11 @@
         "cpu" = {
           "interval" = 1;
           "format" = "󰍛 {usage}%";
+        };
+        "disk" = {
+          "interval" = 30;
+          "format" = "Only {percentage_free}% remaining on {path}";
+          "path" = "/";
         };
 
         "mpd" = {

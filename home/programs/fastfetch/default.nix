@@ -20,7 +20,7 @@
       };
       display = {
         separator = " : ";
-        brightColor = true;
+        brightColor = false;
       };
       #┌
 

@@ -61,6 +61,7 @@
     libreoffice-qt
     polychromatic
     nautilus
+    steam
 
     # games
     osu-lazer-bin

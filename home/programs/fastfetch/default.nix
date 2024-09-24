@@ -20,6 +20,7 @@
       };
       display = {
         separator = " : ";
+        brightColor = true;
       };
       #┌
 
@@ -38,7 +39,32 @@
           format = "┌──────────────────────Hardware──────────────────────┐";
           keyColor = "";
         }
-
+         {
+            type= "host";
+            key= " PC";
+            keyColor= "green";
+        }
+        {
+            type= "cpu";
+            key= "│ ├";
+            showPeCoreCount= true;
+            keyColor= "green";
+        }
+        {
+            type= "gpu";
+            key= "│ ├󰍛";
+            keyColor= "green";
+        }
+        {
+            type= "memory";
+            key= "│ ├󰍛";
+            keyColor= "green"
+        }
+        {
+            type= "disk";
+            key= "└ └";
+            keyColor= "green";
+        }
         {
           type = "custom";
           format = "└────────────────────────────────────────────────────┘";

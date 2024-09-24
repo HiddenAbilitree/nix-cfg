@@ -167,7 +167,7 @@
           "format-ethernet" = "󰒢 Connected!";
           "format-linked" = "󰖪 {essid} (No IP)";
           "format-wifi" = "󰖩 {essid}";
-          "onclick" = "nmtui";
+          "on-click" = "nmtui";
           "interval" = 1;
           "tooltip" = false;
         };

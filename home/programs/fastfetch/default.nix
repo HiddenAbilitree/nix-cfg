@@ -10,7 +10,7 @@
     settings = {
       logo = {
         source = "~/.config/fastfetch/xero.png";
-        type = kitty;
+        type = "kitty";
         height = 15;
         width = 30;
         padding = {

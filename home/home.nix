@@ -63,6 +63,7 @@
     libreoffice-qt
     polychromatic
     nautilus
+    networkmanagerapplet
 
     # games 
     prismlauncher

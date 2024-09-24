@@ -14,6 +14,7 @@
     settings = {
       background_opacity = "0.75";
       enable_audio_bell = false;
+      cursor_shape = "beam";
     };
   };
 }

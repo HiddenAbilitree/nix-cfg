@@ -109,6 +109,8 @@
     playerctl
     brightnessctl
     xorg.xev
+    zip
+    unzip
   ];
 
   services.fprintd.enable = true;

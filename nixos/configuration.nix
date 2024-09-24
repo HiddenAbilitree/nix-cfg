@@ -106,6 +106,8 @@
     wget
     openrazer-daemon
     wl-clipboard
+    playerctl
+
   ];
 
   services.fprintd.enable = true;

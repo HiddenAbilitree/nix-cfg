@@ -109,6 +109,12 @@
           keyColor = "cyan";
         }
         {
+          type = "editor";
+          key = "   ";
+          keyColor = "cyan";
+        }
+
+        {
           type = "custom";
           format = "└────────────────────────────────────────────────────┘";
           keyColor = "";

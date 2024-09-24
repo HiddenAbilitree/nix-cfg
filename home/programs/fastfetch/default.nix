@@ -138,7 +138,13 @@
         }
         {
           type = "theme";
+          key = "   ";
+          keyColor = "blue";
+        }
+        {
+          type = "cursor";
           key = "   󰇀";
+          keyColor = "blue";
         }
         {
           type = "custom";

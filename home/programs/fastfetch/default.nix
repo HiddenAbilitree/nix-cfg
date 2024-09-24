@@ -9,7 +9,7 @@
     enable = true;
     settings = {
       logo = {
-        source = "nixos_small";
+        source = "nixos_large";
       };
       display = {
         separator = " : ";
@@ -80,7 +80,7 @@
         {
           type = "custom";
           format = "  󰊤  GitHub : Vinayydv3695";
-          keyColor = "38;5;75m";
+          keyColor = "38;5;75";
         }
         {
           type = "battery";

@@ -57,6 +57,9 @@
     nwg-look
     libreoffice-qt
     polychromatic
+    dolphin
+    nautilus
+    nemo
 
     # utils
     hunspell

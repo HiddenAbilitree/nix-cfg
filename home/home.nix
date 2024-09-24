@@ -41,7 +41,7 @@
     # notifications
     swaynotificationcenter
 
-    # app launcher2
+    # app launcher
     rofi-wayland-unwrapped
 
     # terminal

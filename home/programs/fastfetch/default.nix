@@ -41,23 +41,18 @@
         }
         {
           type = "host";
-          key = " PC";
+          key = "   ";
           keyColor = "green";
         }
         {
           type = "cpu";
-          key = "│ ├";
+          key = "   ";
           showPeCoreCount = true;
           keyColor = "green";
         }
         {
-          type = "gpu";
-          key = "│ ├󰍛";
-          keyColor = "green";
-        }
-        {
           type = "memory";
-          key = "│ ├󰍛";
+          key = "   ";
           keyColor = "green";
         }
         {

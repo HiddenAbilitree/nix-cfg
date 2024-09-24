@@ -178,3 +178,7 @@
       font-family: "Hack Nerd Font";
       color: #33ccff;
   }
+
+  #custom-notification {
+    font-family: "NotoSansMono Nerd Font";
+  }

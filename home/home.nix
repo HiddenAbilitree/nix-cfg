@@ -38,6 +38,9 @@
     # bar
     waybar
 
+    # notifications
+    swaync
+
     # app launcher
     rofi-wayland-unwrapped
 

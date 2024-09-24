@@ -144,7 +144,7 @@
         };
         "disk" = {
           "interval" = 30;
-          "format" = "Only {percentage_free}% remaining on {path}";
+          "format" = " {percentage_free}%";
           "path" = "/";
         };
 

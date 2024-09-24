@@ -42,28 +42,24 @@
         {
           type = "host";
           key = "   ";
-          keyColor = "green";
+          keyColor = "cyan";
         }
-        "break"
+
         {
           type = "cpu";
           key = "   ";
           showPeCoreCount = true;
-          keyColor = "green";
+          keyColor = "cyan";
         }
-        "break"
-
         {
           type = "memory";
           key = "   ";
-          keyColor = "green";
+          keyColor = "cyan";
         }
-        "break"
-
         {
           type = "disk";
           key = "   ";
-          keyColor = "green";
+          keyColor = "cyan";
         }
         {
           type = "custom";

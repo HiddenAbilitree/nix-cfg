@@ -74,50 +74,44 @@
         }
         {
           type = "os";
-          key = " OS";
-          keyColor = "yellow";
+          key = "   ";
+          keyColor = "blue";
         }
         {
           type = "kernel";
-          key = "│ ├";
-          keyColor = "yellow";
+          key = "   ";
+          keyColor = "blue";
         }
         {
           type = "packages";
-          key = "│ ├󰏖";
-          keyColor = "yellow";
+          key = "   󰏖";
+          keyColor = "blue";
         }
         {
           type = "shell";
-          key = "└ └";
-          keyColor = "yellow";
+          key = "   ";
+          keyColor = "blue";
         }
         "break"
         {
           type = "de";
-          key = " DE";
-          keyColor = "blue";
+          key = "   ";
+          keyColor = "cyan";
         }
         {
           type = "lm";
-          key = "│ ├";
-          keyColor = "blue";
+          key = "   ";
+          keyColor = "cyan";
         }
         {
           type = "wm";
-          key = "│ ├";
-          keyColor = "blue";
+          key = "   ";
+          keyColor = "cyan";
         }
         {
           type = "wmtheme";
-          key = "│ ├󰉼";
-          keyColor = "blue";
-        }
-        {
-          type = "gpu";
-          key = "└ └󰍛";
-          format = "{3}";
-          keyColor = "blue";
+          key = "   󰉼";
+          keyColor = "cyan";
         }
         {
           type = "custom";

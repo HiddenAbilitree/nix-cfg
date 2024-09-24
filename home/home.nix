@@ -66,6 +66,7 @@
     hunspell
     hunspellDicts.en_US
     hyprls
+    xwaylandvideobridge
 
     # development
     bun

@@ -109,7 +109,7 @@
           keyColor = "cyan";
         }
         {
-          type = "wmtheme";
+          type = "theme";
           key = "   󰉼";
           keyColor = "cyan";
         }

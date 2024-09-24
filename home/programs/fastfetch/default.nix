@@ -73,6 +73,53 @@
           keyColor = "";
         }
         {
+          type = "os";
+          key = " OS";
+          keyColor = "yellow";
+        }
+        {
+          type = "kernel";
+          key = "│ ├";
+          keyColor = "yellow";
+        }
+        {
+          type = "packages";
+          key = "│ ├󰏖";
+          keyColor = "yellow";
+        }
+        {
+          type = "shell";
+          key = "└ └";
+          keyColor = "yellow";
+        }
+        "break"
+        {
+          type = "de";
+          key = " DE";
+          keyColor = "blue";
+        }
+        {
+          type = "lm";
+          key = "│ ├";
+          keyColor = "blue";
+        }
+        {
+          type = "wm";
+          key = "│ ├";
+          keyColor = "blue";
+        }
+        {
+          type = "wmtheme";
+          key = "│ ├󰉼";
+          keyColor = "blue";
+        }
+        {
+          type = "gpu";
+          key = "└ └󰍛";
+          format = "{3}";
+          keyColor = "blue";
+        }
+        {
           type = "custom";
           format = "└────────────────────────────────────────────────────┘";
           keyColor = "";

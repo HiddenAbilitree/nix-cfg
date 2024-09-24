@@ -127,14 +127,18 @@
         }
         {
           type = "command";
-          key = "  OS Age ";
+          key = "   ";
           keyColor = "blue";
           text = "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days";
         }
         {
           type = "uptime";
-          key = "  Uptime ";
+          key = "   󰅒";
           keyColor = "blue";
+        }
+        {
+          type = "theme";
+          key = "   󰇀";
         }
         {
           type = "custom";

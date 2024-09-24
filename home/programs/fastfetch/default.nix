@@ -36,7 +36,7 @@
         "break"
         {
           type = "custom";
-          format = "┌──────────────────────Hardware──────────────────────┐";
+          format = "\u001b[90m┌──────────────────────Hardware──────────────────────┐";
           keyColor = "";
         }
         {
@@ -63,13 +63,13 @@
         }
         {
           type = "custom";
-          format = "└────────────────────────────────────────────────────┘";
+          format = "\u001b[90m└────────────────────────────────────────────────────┘";
           keyColor = "";
         }
 
         {
           type = "custom";
-          format = "┌──────────────────────Software──────────────────────┐";
+          format = "\u001b[90m┌──────────────────────Software──────────────────────┐";
           keyColor = "";
         }
         {
@@ -115,25 +115,25 @@
         }
         {
           type = "custom";
-          format = "└────────────────────────────────────────────────────┘";
+          format = "\u001b[90m└────────────────────────────────────────────────────┘";
           keyColor = "";
         }
 
         {
           type = "custom";
-          format = "┌────────────────────────Misc.───────────────────────┐";
+          format = "\u001b[90m┌────────────────────────Misc.───────────────────────┐";
           keyColor = "";
         }
         {
           type = "command";
           key = "  OS Age ";
-          keyColor = "magenta";
+          keyColor = "blue";
           text = "birth_install=$(stat -c %W /); current=$(date +%s); time_progression=$((current - birth_install)); days_difference=$((time_progression / 86400)); echo $days_difference days";
         }
         {
           type = "uptime";
           key = "  Uptime ";
-          keyColor = "magenta";
+          keyColor = "blue";
         }
         {
           type = "custom";

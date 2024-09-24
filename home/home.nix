@@ -62,6 +62,10 @@
     polychromatic
     nautilus
 
+    # games
+    osu-lazer-bin
+    prismlauncher
+
     # utils
     hunspell
     hunspellDicts.en_US

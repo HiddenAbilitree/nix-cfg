@@ -107,7 +107,8 @@
     openrazer-daemon
     wl-clipboard
     playerctl
-
+    brightnessctl
+    xev
   ];
 
   services.fprintd.enable = true;

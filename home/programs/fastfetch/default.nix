@@ -44,17 +44,22 @@
           key = "   ";
           keyColor = "green";
         }
+        "break"
         {
           type = "cpu";
           key = "   ";
           showPeCoreCount = true;
           keyColor = "green";
         }
+        "break"
+
         {
           type = "memory";
           key = "   ";
           keyColor = "green";
         }
+        "break"
+
         {
           type = "disk";
           key = "   ";

@@ -57,7 +57,7 @@
         }
         {
           type = "disk";
-          key = "└ └";
+          key = "   ";
           keyColor = "green";
         }
         {

@@ -9,7 +9,14 @@
     enable = true;
     settings = {
       logo = {
-        source = "kitty";
+        source = "~/.config/fastfetch/xero.png";
+        type = kitty;
+        height = 15;
+        width = 30;
+        padding = {
+          top = 5;
+          left = 3;
+        };
       };
       display = {
         separator = " : ";

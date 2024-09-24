@@ -80,7 +80,7 @@
         {
           type = "custom";
           format = "  󰊤  GitHub : Vinayydv3695";
-          keyColor = "\u001b[38;5;75m";
+          keyColor = "38;5;75m";
         }
         {
           type = "battery";

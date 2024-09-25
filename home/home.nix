@@ -65,6 +65,7 @@
     networkmanagerapplet
     themechanger
     libqalculate
+    audacity
 
     # games 
     prismlauncher

@@ -33,7 +33,7 @@
         "$browser" = "firefox";
         "$terminal" = "kitty";
 
-        exec-once = "vesktop & $terminal & bottom & $browser & waybar & hyprpaper & hyprctl setcursor phinger-cursors-dark 24";
+        exec-once = "vesktop & spotify & $terminal & bottom & $browser & waybar & hyprpaper & hyprctl setcursor phinger-cursors-dark 24";
 
         bind =
           [

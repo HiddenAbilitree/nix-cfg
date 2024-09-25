@@ -31,7 +31,6 @@
         "battery" = {
           "format" = " {icon} {capacity}%";
           "format-icons" = [
-            "󰂎"
             "󰁺"
             "󰁻"
             "󰁼"

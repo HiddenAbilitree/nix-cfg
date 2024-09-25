@@ -11,7 +11,7 @@
       settings = {
         general = {
           border_size = "2";
-          col.active_border = "0xff4d5fc2";
+          "col.active_border" = "0xff4d5fc2";
           resize_on_border = "true";
           extend_border_grab_area = "50";
           hover_icon_on_border = "true";

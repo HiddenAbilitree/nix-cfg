@@ -28,7 +28,7 @@
           "battery"
         ];
         "battery" = {
-          "format" = " {icon} {capacity}%";
+          "format" = "{icon} {capacity}%";
           "format-icons" = [
             "󰂎"
             "󰁺"
@@ -74,7 +74,7 @@
           "drawer" = { };
         };
         "temperature" = {
-          "format" = "  {temperatureC}°C";
+          "format" = " {temperatureC}°C";
         };
         "privacy" = {
           "icon-spacing" = 4;
@@ -127,7 +127,7 @@
           "tooltip" = false;
         };
         "clock" = {
-          "format" = "  {:%H:%M}";
+          "format" = " {:%H:%M}";
           "format-alt" = "  {:%A, %B %d, %Y (%R)}";
           "tooltip-format" = "<tt><small>{calendar}</small></tt>";
           "calendar" = {

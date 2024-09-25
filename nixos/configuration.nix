@@ -135,17 +135,6 @@
     #jack.enable = true;
   };
 
-  hardware.graphics.enable32Bit = true;
-  hardware.pulseaudio.support32Bit = true;
-  services.pipewire.extraConfig.pipewire."92-low-latency" = {
-    "context.properties" = {
-      "default.clock.rate" = 48000;
-      "default.clock.quantum" = 32;
-      "default.clock.min-quantum" = 32;
-      "default.clock.max-quantum" = 32;
-    };
-  };
-
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
   # programs.mtr.enable = true;

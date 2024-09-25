@@ -129,7 +129,7 @@
               ""
             ];
           };
-          "on-click" = "pamixer -t";
+          "on-click" = "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle";
           "tooltip" = false;
         };
         "clock" = {

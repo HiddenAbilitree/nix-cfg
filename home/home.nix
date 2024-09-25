@@ -64,6 +64,8 @@
     polychromatic
     nautilus
     networkmanagerapplet
+    themechanger
+    qalculate-qt
 
     # games 
     prismlauncher

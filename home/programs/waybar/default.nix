@@ -145,8 +145,8 @@
           };
           "actions" = {
             "on-click-right" = "mode";
-            "on-scroll-up" = "tz_up";
-            "on-scroll-down" = "tz_down";
+            "on-scroll-up" = "shift_up";
+            "on-scroll-down" = "shift_down";
           };
         };
         "memory" = {

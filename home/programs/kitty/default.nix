@@ -15,7 +15,7 @@
       background_opacity = "0.75";
       enable_audio_bell = false;
       cursor_shape = "beam";
-      window_margin_width = "5";
+      window_margin_width = "20";
     };
   };
 }

@@ -20,17 +20,17 @@
           "hyprland/workspaces"
         ];
         modules-right = [
+          "tray"
           "network"
           "pulseaudio"
           "group/hardware"
           "clock"
           "battery"
-          "custom/powermenu"
-          "tray"
         ];
         "battery" = {
           "format" = " {icon} {capacity}%";
           "format-icons" = [
+            "󰂎"
             "󰁺"
             "󰁻"
             "󰁼"
@@ -187,11 +187,6 @@
           "format-wifi" = "󰖩 {essid}";
           "on-click" = "nmtui";
           "interval" = 1;
-          "tooltip" = false;
-        };
-        "custom/powermenu" = {
-          "format" = "";
-          "on-click" = "pkill rofi || ~/.config/rofi/powermenu/type-3/powermenu.sh";
           "tooltip" = false;
         };
         "tray" = {

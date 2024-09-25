@@ -74,7 +74,13 @@
           "drawer" = { };
         };
         "temperature" = {
-          "format" = " {temperatureC}°C";
+          "format" = "{icon} {temperatureC}°C";
+          "format-icons" = [
+            ""
+            ""
+            ""
+            ""
+          ];
         };
         "privacy" = {
           "icon-spacing" = 4;

@@ -28,6 +28,22 @@
           "custom/powermenu"
           "tray"
         ];
+        "battery" = {
+          "format" = " {icon} {capacity}%";
+          "format-icons" = [
+            "󰂎"
+            "󰁺"
+            "󰁻"
+            "󰁼"
+            "󰁽"
+            "󰁾"
+            "󰁿"
+            "󰂀"
+            "󰂁"
+            "󰂂"
+            "󰁹"
+          ];
+        };
         "custom/notification" = {
           "tooltip" = false;
           "format" = "{icon}";
@@ -57,6 +73,9 @@
             "disk"
           ];
           "drawer" = { };
+        };
+        "temperature" = {
+          "format" = "  {temperatureC}°C";
         };
         "privacy" = {
           "icon-spacing" = 4;
@@ -109,8 +128,8 @@
           "tooltip" = false;
         };
         "clock" = {
-          "format" = "{:%H:%M}  ";
-          "format-alt" = "{:%A, %B %d, %Y (%R)}  ";
+          "format" = "  {:%H:%M}";
+          "format-alt" = "  {:%A, %B %d, %Y (%R)}";
           "tooltip-format" = "<tt><small>{calendar}</small></tt>";
           "calendar" = {
             "mode" = "year";

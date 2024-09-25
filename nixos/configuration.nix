@@ -111,7 +111,7 @@
     zip
     unzip
   ];
-
+  programs.thunar.enable = true;
   services.fprintd.enable = true;
 
   programs.hyprland.enable = true;

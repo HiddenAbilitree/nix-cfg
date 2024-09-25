@@ -65,7 +65,7 @@
     nautilus
     networkmanagerapplet
     themechanger
-    qalculate-qt
+    libqalculate
 
     # games 
     prismlauncher

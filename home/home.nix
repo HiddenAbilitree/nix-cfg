@@ -34,14 +34,8 @@
     # themes
     tokyonight-gtk-theme
 
-    # bar
-    waybar
-
     # notifications
     swaynotificationcenter
-
-    # terminal
-    kitty
 
     # cli/tuis
     starship

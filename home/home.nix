@@ -41,7 +41,7 @@
     swaynotificationcenter
 
     # app launcher
-    rofi-wayland
+    rofi-wayland-unwrapped
 
     # terminal
     kitty

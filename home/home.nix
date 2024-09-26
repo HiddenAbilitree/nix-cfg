@@ -40,9 +40,6 @@
     # notifications
     swaynotificationcenter
 
-    # app launcher
-    rofi-wayland-unwrapped
-
     # terminal
     kitty
 

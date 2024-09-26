@@ -24,9 +24,6 @@
 
   home.packages = with pkgs; [
 
-    # window manager
-    hyprland
-
     # related tools
     hyprpaper
     hyprshot

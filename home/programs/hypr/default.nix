@@ -16,9 +16,13 @@
           extend_border_grab_area = "50";
           hover_icon_on_border = "true";
         };
+        animations = {
+          enabled = false;
+        };
         decoration = {
           rounding = "10";
           blur = {
+            enabled = false;
             size = "0";
             passes = "0";
             vibrancy = "0.1696";

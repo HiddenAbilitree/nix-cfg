@@ -54,6 +54,7 @@
     themechanger
     libqalculate
     audacity
+    pavucontrol
 
     # games 
     prismlauncher

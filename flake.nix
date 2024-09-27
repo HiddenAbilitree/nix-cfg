@@ -7,14 +7,13 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nix-nvim.url = "github:hiddenabilitree/nix-nvim";
+    nixCats.url = "github:BirdeeHub/nixCats-nvim?dir=nix";
   };
 
   outputs =
     inputs@{
       nixpkgs,
       home-manager,
-      nix-nvim,
       ...
     }:
     {
@@ -30,6 +29,7 @@
             home-manager.users.ezhang = import ./home/home.nix;
             home-manager.extraSpecialArgs = inputs;
           }
+          nixCats.nixosModules.nixCats
         ];
       };
     };

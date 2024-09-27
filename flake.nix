@@ -19,6 +19,8 @@
     {
       nixosConfigurations.loser = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
+        nixcats = import ~/.config/nvim/default.nix { inherit inputs; };
+
         modules = [
           ./nixos/configuration.nix
           ./hibernate.nix

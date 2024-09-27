@@ -7,7 +7,7 @@
       url = "github:nix-community/home-manager";
       inputs.nixpkgs.follows = "nixpkgs";
     };
-    nvim-cfg.url = "github:hiddenabilitree/nix-nvim";
+    nix-nvim.url = "github:hiddenabilitree/nix-nvim";
   };
 
   outputs =

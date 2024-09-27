@@ -14,12 +14,12 @@
     inputs@{
       nixpkgs,
       home-manager,
+      nixCats,
       ...
     }:
     {
       nixosConfigurations.loser = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        nixCats = import ./flakes/nixCats.nix { inherit inputs; };
 
         modules = [
           ./nixos/configuration.nix

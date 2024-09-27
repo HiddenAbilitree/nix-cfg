@@ -125,8 +125,6 @@
   services.gnome.core-utilities.enable = false;
 
   # audio
-  sound.enable = false;
-
   security.rtkit.enable = true;
 
   services.pipewire = {

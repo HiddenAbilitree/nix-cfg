@@ -77,7 +77,10 @@
       ];
     })
   ];
-
+  nixpkgs.overlays = [
+    # replace <kickstart-nix-nvim> with the name you chose
+    <nix-nvim>.overlays.default
+  ];
   services.getty.autologinUser = "ezhang";
 
   # firmware updates

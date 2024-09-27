@@ -38,6 +38,7 @@
     starship
     bottom
     fastfetch
+    fzf
 
     # apps
     spotify

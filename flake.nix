@@ -19,7 +19,7 @@
     {
       nixosConfigurations.loser = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        nixcats = import ./flakes/nixCats.nix { inherit inputs; };
+        nixCats = import ./flakes/nixCats.nix { inherit inputs; };
 
         modules = [
           ./nixos/configuration.nix

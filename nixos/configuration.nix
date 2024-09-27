@@ -106,7 +106,6 @@
     wl-clipboard
     playerctl
     brightnessctl
-    xorg.xev
     zip
     unzip
   ];

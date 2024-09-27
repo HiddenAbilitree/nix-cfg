@@ -31,7 +31,8 @@
             home-manager.users.ezhang = import ./home/home.nix;
             home-manager.extraSpecialArgs = inputs;
           }
-          nixCats
+          nixCats.nixosModules.default
+
         ];
       };
     };

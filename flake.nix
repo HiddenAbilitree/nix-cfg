@@ -14,6 +14,7 @@
     inputs@{
       nixpkgs,
       home-manager,
+      nix-nvim,
       ...
     }:
     {

@@ -55,9 +55,7 @@
     layout = "us";
     variant = "";
   };
-  nixpkgs.overlays = [
-    nix-nvim.overlays.default
-  ];
+
   programs.zsh.enable = true;
   users.users.ezhang = {
     isNormalUser = true;

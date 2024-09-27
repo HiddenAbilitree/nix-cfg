@@ -112,6 +112,8 @@
   programs.thunar.enable = true;
   services.fprintd.enable = true;
 
+  time.hardwareClockInLocalTime = true;
+
   programs.hyprland.enable = true;
 
   services.xserver = {

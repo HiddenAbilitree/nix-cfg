@@ -80,12 +80,16 @@
 
   services.getty.autologinUser = "ezhang";
 
+  # firmware updates
   services.fwupd.enable = true;
 
+  # allow unfree haha
   nixpkgs.config.allowUnfree = true;
 
+  # x-term >:(
   services.xserver.excludePackages = [ pkgs.xterm ];
 
+  # razer
   hardware.openrazer.enable = true;
 
   environment.systemPackages = with pkgs; [
@@ -97,8 +101,6 @@
     # utils
     nixfmt-rfc-style
     ripgrep
-    pipewire
-    wireplumber
     wget
     openrazer-daemon
     wl-clipboard

@@ -101,6 +101,7 @@
     # utils
     nixfmt-rfc-style
     ripgrep
+    fd
     wget
     openrazer-daemon
     wl-clipboard
@@ -109,6 +110,7 @@
     zip
     unzip
     nvim-pkg
+    gcc
   ];
   programs.thunar.enable = true;
   services.fprintd.enable = true;

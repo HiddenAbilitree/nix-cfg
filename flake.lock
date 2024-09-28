@@ -20,23 +20,6 @@
         "type": "github"
       }
     },
-    "nixCats": {
-      "locked": {
-        "dir": "nix",
-        "lastModified": 1726523552,
-        "narHash": "sha256-RqOJeQlX2+H5j+RdFzTc7QSf4/qK4Oe01KpE2713Cws=",
-        "owner": "BirdeeHub",
-        "repo": "nixCats-nvim",
-        "rev": "2b455dab0eee7484ce7c956dccda0a7c2111c18b",
-        "type": "github"
-      },
-      "original": {
-        "dir": "nix",
-        "owner": "BirdeeHub",
-        "repo": "nixCats-nvim",
-        "type": "github"
-      }
-    },
     "nixpkgs": {
       "locked": {
         "lastModified": 1727122398,
@@ -56,7 +39,6 @@
     "root": {
       "inputs": {
         "home-manager": "home-manager",
-        "nixCats": "nixCats",
         "nixpkgs": "nixpkgs"
       }
     }

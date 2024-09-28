@@ -109,7 +109,6 @@
     brightnessctl
     zip
     unzip
-    nvim-pkg
     gcc
   ];
   programs.thunar.enable = true;

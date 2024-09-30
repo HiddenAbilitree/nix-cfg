@@ -26,7 +26,7 @@ truncation_length = 3
 truncation_symbol = "…/"
 
 [nix_shell]
-disabled = true
+disabled = false
 impure_msg = '[impure shell](bold red)'
 pure_msg = '[pure shell](bold green)'
 unknown_msg = '[unknown shell](bold yellow)'

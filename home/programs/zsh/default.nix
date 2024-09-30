@@ -13,6 +13,10 @@
       nix-clear = "sudo nix-collect-garbage -d; sudo /run/current-system/bin/switch-to-configuration boot";
       fetch = "fastfetch";
       "367" = "cd ~/School/cs367";
+      calq = "qalc";
+      calc = "qalc";
+      calculator = "qalc";
+      calculate = "qalc";
     };
     oh-my-zsh = {
       enable = true;

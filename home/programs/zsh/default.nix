@@ -17,6 +17,7 @@
       calc = "qalc";
       calculator = "qalc";
       calculate = "qalc";
+      nix-shell = "nix-shell --command \"zsh\"";
     };
     oh-my-zsh = {
       enable = true;

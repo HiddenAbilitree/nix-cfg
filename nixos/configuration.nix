@@ -109,6 +109,7 @@
     brightnessctl
     zip
     unzip
+    libgcc
   ];
   programs.thunar.enable = true;
   services.fprintd.enable = true;

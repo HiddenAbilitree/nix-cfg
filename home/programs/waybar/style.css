@@ -35,7 +35,8 @@
       margin-top: 4px;
       background-color: #24283b;
       padding: 3px;
-      padding-block: 6px;
+      padding-top: 6px;
+      padding-bottom: 6px;
       padding-left: 8px;
       border: 2px none #33ccff;
   }

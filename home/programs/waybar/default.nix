@@ -188,10 +188,10 @@
           tooltip-format = "{title} - {artist} ({elapsedTime:%M:%S}/{totalTime:%H:%M:%S})";
         };
         network = {
-          format-disconnected = "󰯡 Disconnected";
-          format-ethernet = "󰒢 Connected!";
-          format-linked = "󰖪 {essid} (No IP)";
-          format-wifi = "󰖩 {essid}";
+          format-disconnected = "󰯡";
+          format-ethernet = "󰒢";
+          format-linked = "󰖪 (No IP)";
+          format-wifi = "󰖩";
           on-click = "nmtui";
           interval = 1;
           tooltip = true;

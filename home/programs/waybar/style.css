@@ -59,15 +59,15 @@
   }
 
   #workspaces button.persistent {
-      color: white;
+      color: rgba(255, 255, 255, .6);
   }
 
   #workspaces button.empty {
-      color: rgba(255, 255, 255, 0.26);
+      color: rgba(255, 255, 255, 0.25);
   }
 
   #workspaces button.active {
-      color: rgb(77, 95, 194);
+      color: rgba(77, 95, 194, .8);
   }
 
   #workspaces button.urgent {

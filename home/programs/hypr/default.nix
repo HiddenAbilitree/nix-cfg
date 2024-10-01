@@ -10,6 +10,8 @@
       extraConfig = builtins.readFile ./hyprland.conf;
       settings = {
         general = {
+          gaps_in = "2";
+          gaps_out = "4";
           border_size = "2";
           "col.active_border" = "0xff4d5fc2";
           resize_on_border = "true";

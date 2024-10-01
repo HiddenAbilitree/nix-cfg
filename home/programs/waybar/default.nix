@@ -189,9 +189,16 @@
         };
         network = {
           format-disconnected = "󰯡";
-          format-ethernet = "󰒢";
-          format-linked = "󰖪 (No IP)";
-          format-wifi = "󰖩";
+          format-ethernet = "";
+          format-linked = "󱚵 (No IP)";
+          format-wifi = "{icon}";
+          format-icons = [
+            "󰤯"
+            "󰤟"
+            "󰤢"
+            "󰤥"
+            "󰤨"
+          ];
           on-click = "nmtui";
           interval = 1;
           tooltip = true;

@@ -26,6 +26,7 @@
 
   window#waybar {
       background-color: transparent;
+      border: solid #4d5fc2;
   }
 
   window>box {
@@ -38,7 +39,6 @@
       padding-top: 6px;
       padding-bottom: 6px;
       padding-left: 6px;
-      border: solid #4d5fc2;
   }
 
   #window {

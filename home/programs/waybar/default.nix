@@ -14,11 +14,10 @@
         position = "top";
         modules-left = [
           "custom/launcher"
-          "privacy"
-          "hyprland/window"
+          "hyprland/workspaces"
         ];
         modules-center = [
-          "hyprland/workspaces"
+
         ];
         modules-right = [
           "tray"
@@ -122,8 +121,9 @@
         "hyprland/workspaces" = {
           format = "{icon}";
           format-icons = {
-            empty = "";
-            active = "";
+            empty = "<span></span>";
+            default = "<span></span>";
+            active = "<span style=\"color:red\">󱓻</span>";
           };
           "persistent-workspaces" = {
             "*" = 9;

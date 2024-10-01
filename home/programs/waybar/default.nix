@@ -119,6 +119,16 @@
         "hyprland/window" = {
           format = "{initialTitle}";
         };
+        "hyprland/workspaces" = {
+          format = "{icon}";
+          format-icons = {
+            empty = "";
+            active = "";
+          };
+          "persistent-workspaces" = {
+            "*" = 9;
+          };
+        };
         pulseaudio = {
           scroll-step = 1;
           format = "{icon} {volume}%";

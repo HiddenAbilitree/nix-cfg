@@ -204,6 +204,6 @@
         };
       }
     ];
-    style = builtins.readFile ./style2.css;
+    style = builtins.readFile ./style.css;
   };
 }

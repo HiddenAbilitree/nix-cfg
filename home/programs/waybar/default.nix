@@ -9,6 +9,7 @@
     enable = true;
     settings = [
       {
+
         "layer" = "top";
         "position" = "top";
         modules-left = [
@@ -193,7 +194,8 @@
           "format-wifi" = "󰖩 {essid}";
           "on-click" = "nmtui";
           "interval" = 1;
-          "tooltip" = false;
+          "tooltip" = true;
+          tooltip-format = "{essid}"
         };
         "tray" = {
           "icon-size" = 15;

@@ -195,7 +195,7 @@
           "on-click" = "nmtui";
           "interval" = 1;
           "tooltip" = true;
-          tooltip-format = "{essid}"
+          tooltip-format = "{essid}";
         };
         "tray" = {
           "icon-size" = 15;

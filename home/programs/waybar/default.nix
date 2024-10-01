@@ -121,9 +121,8 @@
         "hyprland/workspaces" = {
           format = "{icon}";
           format-icons = {
-            empty = "<span></span>";
-            default = "<span></span>";
-            active = "<span style=\"color:red\">󱓻</span>";
+            empty = "";
+            active = "󱓻";
           };
           "persistent-workspaces" = {
             "*" = 9;

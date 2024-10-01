@@ -58,21 +58,20 @@
       color: aliceblue
   }
 
-  #workspaces button.active {
-      color: rgb(77, 95, 194);
-  }
-
-  #workspaces button.urgent {
-      color: red;
+  #workspaces button.empty {
+      color: rgba(255, 255, 255, 0.26);
   }
 
   #workspaces button.persistent {
       color: white;
   }
 
+  #workspaces button.active {
+      color: rgb(77, 95, 194);
+  }
 
-  #workspaces button.empty {
-      color: rgba(255, 255, 255, 0.26);
+  #workspaces button.urgent {
+      color: red;
   }
 
   #workspaces button:hover {

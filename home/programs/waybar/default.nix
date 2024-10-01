@@ -10,7 +10,6 @@
     settings = [
       {
         reload_on_style_change = true;
-        mode = "hide";
         layer = "top";
         position = "top";
         modules-left = [
@@ -76,7 +75,7 @@
           drawer = { };
         };
         temperature = {
-          format = "{icon} {temperaureC}°C";
+          format = "{icon} {temperatureC}°C";
           format-icons = [
             ""
             ""

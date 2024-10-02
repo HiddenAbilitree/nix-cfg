@@ -34,7 +34,7 @@
       margin-right: 4px;
       margin-top: 4px;
       background-color: #24283b;
-      padding: 3px;
+      padding-right: 3px;
       padding-top: 6px;
       padding-bottom: 6px;
       padding-left: 4px;
@@ -48,8 +48,7 @@
   #workspaces {
       outline: 0;
       border: 0;
-      padding-left: 0px;
-      padding-right: 0px;
+      padding: 0;
       /*background-color: #171926;*/
   }
 

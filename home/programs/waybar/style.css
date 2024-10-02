@@ -82,7 +82,8 @@
 
   #workspaces button:hover {
       color: rgba(77, 95, 194, 1);
-      background-color: transparent;
+      background: none;
+      border: none;
   }
 
   tooltip {

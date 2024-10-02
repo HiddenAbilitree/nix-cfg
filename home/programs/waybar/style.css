@@ -54,7 +54,9 @@
 
   #workspaces button {
       border-radius: 0px;
-      padding: 0;
+      max-width: 0px;
+      max-height: 0px;
+      margin-right: 4px;
       font-size: 11pt;
       color: aliceblue;
       background-color: transparent;

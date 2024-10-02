@@ -14,6 +14,7 @@
         position = "top";
         modules-left = [
           "custom/launcher"
+          "custom/spacer"
           "hyprland/workspaces"
         ];
         modules-center = [

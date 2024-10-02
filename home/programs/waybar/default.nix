@@ -135,8 +135,8 @@
         };
         pulseaudio = {
           scroll-step = 1;
-          format = "{icon} {volume}%";
-          format-muted = "󰖁 Muted";
+          format = "{icon}";
+          format-muted = "󰖁";
           format-icons = {
             default = [
               ""
@@ -145,7 +145,8 @@
             ];
           };
           on-click = "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle";
-          tooltip = false;
+          tooltip = true;
+          tooltip-format = "{volume}%";
         };
         clock = {
           format = " {:%H:%M}";

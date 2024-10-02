@@ -41,21 +41,22 @@
     fzf
 
     # apps
-    spotify
+    audacity
     easyeffects
-    mpv
-    obsidian
-    vscode
-    vesktop
-    nwg-look
+    libqalculate
     libreoffice-qt
-    polychromatic
+    mpv
     nautilus
     networkmanagerapplet
-    themechanger
-    libqalculate
-    audacity
+    nwg-look
+    obsidian
     pavucontrol
+    polychromatic
+    spotify
+    themechanger
+    vesktop
+    vscode
+    zotero
 
     # games 
     prismlauncher

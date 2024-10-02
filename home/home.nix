@@ -93,7 +93,7 @@
   home.sessionVariables = {
     EDITOR = "nvim";
     SCHOOL = "~/School";
-    "367" = "$school$/367";
+    "367" = "${config.home.sessionVariables.SCHOOL}/cs367";
   };
   nixpkgs = {
     config = {

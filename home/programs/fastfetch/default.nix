@@ -35,16 +35,17 @@
       modules = [
         "break"
         {
-          type = "custom";
-          format = "┌──────────────────────Hardware──────────────────────┐";
-          keyColor = "";
-        }
-        {
           type = "users";
           key = "   󰙃";
           keyColor = "cyan";
         }
 
+        {
+          type = "custom";
+          format = "┌──────────────────────Hardware──────────────────────┐";
+          keyColor = "";
+        }
+        { type = "display"; }
         {
           type = "cpu";
           key = "   ";

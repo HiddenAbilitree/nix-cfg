@@ -12,7 +12,7 @@
       rebuild = "git -C ~/nixos-cfg/ add -A && git -C ~/nixos-cfg/ commit -am update; sudo nixos-rebuild switch --flake ~/nixos-cfg/# && source ~/.zshrc";
       nix-clear = "sudo nix-collect-garbage -d; sudo /run/current-system/bin/switch-to-configuration boot";
       fetch = "fastfetch\nsource /etc/profiles/per-user/$USER/etc/profile.d/hm-session-vars.sh";
-      "367" = "cd ~/School/cs367";
+      cs367 = "cd ~/School/cs367";
       calq = "qalc";
       calc = "qalc";
       calculator = "qalc";

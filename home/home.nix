@@ -39,6 +39,7 @@
     bottom
     fastfetch
     fzf
+    cbonsai
 
     # apps
     audacity

@@ -43,6 +43,7 @@
             "󰂂"
             "󰁹"
           ];
+
         };
         "custom/notification" = {
           tooltip = false;
@@ -82,6 +83,7 @@
             ""
             ""
           ];
+          tooltip = false;
         };
         privacy = {
           icon-spacing = 4;

@@ -46,7 +46,7 @@
           [
             "$mod, F, exec, $browser"
             "$mod, Q, exec, $terminal"
-            "$mod, SPACE, exec, $menu"
+            "$mod,, exec, $menu"
           ]
           ++ (builtins.concatLists (
             builtins.genList (

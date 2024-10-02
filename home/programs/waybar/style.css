@@ -75,8 +75,7 @@
   }
 
   #workspaces button:hover {
-      background-color: rgb(52, 55, 111);
-      color: rgb(26, 24, 38);
+      color: rgba(77, 95, 194, 1);
   }
 
   tooltip {

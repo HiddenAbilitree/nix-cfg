@@ -104,6 +104,9 @@
             }
           ];
         };
+        "custom/spacer" = {
+          format = "";
+        };
         "custom/launcher" = {
           format = " ";
           on-click = "pkill rofi";

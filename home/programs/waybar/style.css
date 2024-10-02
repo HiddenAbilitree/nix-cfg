@@ -53,7 +53,7 @@
   }
 
   #workspaces button {
-      border-radius: 0px;
+      border-radius: 100%;
       padding: 0px;
       margin: 0px;
       font-size: 11pt;

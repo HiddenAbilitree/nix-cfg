@@ -106,7 +106,7 @@
           ];
         };
         "custom/spacer" = {
-          format = "";
+          format = "";
         };
         "custom/launcher" = {
           format = " ";

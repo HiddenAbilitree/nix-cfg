@@ -109,6 +109,8 @@
     brightnessctl
     zip
     unzip
+    qt5-wayland
+    qt6-wayland
   ];
   programs.thunar.enable = true;
   services.fprintd.enable = true;

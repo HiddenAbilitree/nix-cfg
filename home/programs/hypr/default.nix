@@ -44,9 +44,7 @@
 
         bind =
           [
-            "$mod, F, exec, $browser"
-            "$mod, Q, exec, $terminal"
-            "$mod,, exec, $menu"
+
           ]
           ++ (builtins.concatLists (
             builtins.genList (

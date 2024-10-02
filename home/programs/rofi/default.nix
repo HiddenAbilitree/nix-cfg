@@ -8,6 +8,8 @@
     extraConfig = {
       kb-mode-next = "Right,Control+Tab";
       kb-mode-previous = "Left,Shift+Control+Tab";
+      kb-move-char-forward = "Control+f";
+      kb-move-char-back = "Control+b";
     };
   };
   home.file.".config/rofi/theme.rasi".text = builtins.readFile ./theme.rasi;

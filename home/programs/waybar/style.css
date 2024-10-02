@@ -54,9 +54,11 @@
   }
 
   #workspaces button {
-      padding: 1px;
+      padding-top: 1px;
+      padding-bottom: 1px;
       font-size: 11pt;
-      color: aliceblue
+      color: aliceblue;
+      background-color: transparent;
   }
 
   #workspaces button.persistent {

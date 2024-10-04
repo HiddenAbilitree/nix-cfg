@@ -69,6 +69,7 @@
     hyprls
     xwaylandvideobridge
     thefuck
+    man-pages
 
     # development
     bun

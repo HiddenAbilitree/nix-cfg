@@ -128,12 +128,6 @@
 
   services.gnome.core-utilities.enable = false;
 
-  documentation = {
-    enable = true;
-    man.enable = true;
-    dev.enable = true;
-  };
-
   # audio
   security.rtkit.enable = true;
 

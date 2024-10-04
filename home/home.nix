@@ -43,6 +43,7 @@
 
     # apps
     audacity
+    drawing
     easyeffects
     libqalculate
     libreoffice-qt
@@ -93,7 +94,7 @@
   home.sessionVariables = {
     EDITOR = "nvim";
     SCHOOL = "~/School";
-    cs367 = "${config.home.sessionVariables.SCHOOL}/cs367";
+    cse367 = "${config.home.sessionVariables.SCHOOL}/cs367";
   };
   nixpkgs = {
     config = {

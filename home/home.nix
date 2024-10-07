@@ -40,6 +40,7 @@
     fastfetch
     fzf
     cbonsai
+    gambit
 
     # apps
     audacity

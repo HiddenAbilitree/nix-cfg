@@ -45,7 +45,11 @@
           format = "┌──────────────────────Hardware──────────────────────┐";
           keyColor = "";
         }
-        { type = "display"; }
+        {
+          type = "display";
+          key = "   󰍹";
+          keyColor = "cyan";
+        }
         {
           type = "cpu";
           key = "   ";

@@ -18,6 +18,8 @@
       calculator = "qalc";
       calculate = "qalc";
       nix-shell = "nix-shell --command \"zsh\"";
+      blue = "bluetuith";
+      bluetooth = "bluetuith";
     };
     oh-my-zsh = {
       enable = true;

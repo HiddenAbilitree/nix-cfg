@@ -41,6 +41,7 @@
     fzf
     cbonsai
     gambit-chess
+    bluetuith
 
     # apps
     audacity

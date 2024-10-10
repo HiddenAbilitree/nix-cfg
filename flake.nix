@@ -27,12 +27,12 @@
         modules = [
           ./nixos/configuration.nix
           ./hibernate.nix
-          home-manager.nixosModules.home-manager
+          home-manager.nixosModules.home-manager.home-manager
           {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.users.ezhang = import ./home/home.nix;
-            home-manager.extraSpecialArgs = inputs;
+            useGlobalPkgs = true;
+            useUserPackages = true;
+            users.ezhang = import ./home/home.nix;
+            extraSpecialArgs = inputs;
           }
         ];
       };

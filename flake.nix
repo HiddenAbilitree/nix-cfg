@@ -24,7 +24,7 @@
     {
       nixosConfigurations.loser = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        specialArgs = {
+        extraSpecialArgs = {
           inherit inputs;
         };
         modules = [

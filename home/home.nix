@@ -1,9 +1,15 @@
-{ pkgs, config, ... }:
+{
+  pkgs,
+  config,
+  spicetify-nix,
+  ...
+}:
 {
 
   imports = [
     ./programs
     ./services
+    inputs.spicetify-nix.homeManagerModules.default
   ];
 
   home = {
@@ -42,7 +48,6 @@
     cbonsai
     gambit-chess
     bluetuith
-    spicetify-cli
 
     # apps
     audacity

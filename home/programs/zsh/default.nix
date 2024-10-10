@@ -18,7 +18,7 @@
       calculator = "qalc";
       calculate = "qalc";
       nix-shell = "nix-shell --command \"zsh\"";
-      nix-update = "sudo nix flake update /home/ezhang/nixos-cfg/flake.nix";
+      nix-update = "sudo nix flake update /home/ezhang/nixos-cfg/";
       blue = "bluetuith";
       bluetooth = "bluetuith";
     };

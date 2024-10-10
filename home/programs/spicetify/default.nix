@@ -1,4 +1,10 @@
-{ inputs, pkgs, ... }:
+{
+  config,
+  pkgs,
+  lib,
+  inputs,
+  ...
+}:
 {
   programs.spicetify =
     let

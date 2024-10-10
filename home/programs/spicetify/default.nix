@@ -1,4 +1,4 @@
-{ inputs, pkgs }:
+{ inputs, pkgs, ... }:
 {
   programs.spicetify =
     let

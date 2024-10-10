@@ -1,4 +1,5 @@
 {
+  pkgs,
   spicetify-nix,
   ...
 }:

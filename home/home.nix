@@ -42,6 +42,7 @@
     cbonsai
     gambit-chess
     bluetuith
+    spicetify-cli
 
     # apps
     audacity

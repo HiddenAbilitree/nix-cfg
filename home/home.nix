@@ -102,7 +102,7 @@
 
   programs.spicetify =
     let
-      spicePkgs = inputs.spicetify-nix.legacyPackages.${pkgs.system};
+      spicePkgs = spicetify-nix.legacyPackages.${pkgs.system};
     in
     {
       enable = true;

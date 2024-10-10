@@ -24,8 +24,8 @@
     {
       nixosConfigurations.loser = nixpkgs.lib.nixosSystem {
         system = "x86_64-linux";
-        extraSpecialArgs = {
-          inherit spicetify-nix;
+        specialArgs = {
+          inherit inputs;
         };
         modules = [
           ./nixos/configuration.nix

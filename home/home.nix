@@ -1,7 +1,7 @@
 {
   pkgs,
   config,
-  inputs,
+  spicetify-nix,
   ...
 }:
 {
@@ -9,7 +9,7 @@
   imports = [
     ./programs
     ./services
-
+    spicetify-nix.homeManagerModules.default
   ];
 
   home = {
@@ -83,8 +83,6 @@
     bun
     git
     gh
-    inputs.spicetify-nix.homeManagerModules.default
-
   ];
 
   # Home Manager is pretty good at managing dotfiles. The primary way to manage

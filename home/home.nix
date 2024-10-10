@@ -62,7 +62,6 @@
     obsidian
     pavucontrol
     polychromatic
-    spotify
     themechanger
     vesktop
     vscode

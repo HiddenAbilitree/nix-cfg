@@ -113,13 +113,7 @@
     zip
     unzip
   ];
-  services.gnome-keyring.enable = true;
 
-  programs.gnupg.enable = true;
-  services.gpg-agent = {
-    enable = true;
-    pinentryFlavor = "gnome3";
-  };
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true;

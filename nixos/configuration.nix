@@ -115,7 +115,7 @@
   ];
   services.gnome-keyring.enable = true;
 
-  programs.gpg.enable = true;
+  programs.gnupg.enable = true;
   services.gpg-agent = {
     enable = true;
     pinentryFlavor = "gnome3";

@@ -48,7 +48,7 @@
     gambit-chess
     bluetuith
     gnupg1
-    pinentry-qt
+    pinentry-all
 
     # apps
     audacity

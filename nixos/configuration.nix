@@ -113,12 +113,13 @@
     zip
     unzip
   ];
-  services.pcscd.enable = true;
-  programs.gnupg.agent = {
-    enable = true;
-    enableSSHSupport = true;
-  };
+  services.gnome-keyring.enable = true;
 
+  programs.gpg.enable = true;
+  services.gpg-agent = {
+    enable = true;
+    pinentryFlavor = "gnome3";
+  };
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true;

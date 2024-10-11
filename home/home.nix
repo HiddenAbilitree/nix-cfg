@@ -47,7 +47,6 @@
     cbonsai
     gambit-chess
     bluetuith
-    gnupg1
 
     # apps
     audacity

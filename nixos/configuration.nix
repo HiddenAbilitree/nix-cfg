@@ -114,6 +114,13 @@
     unzip
   ];
 
+  services.pcscd.enable = true;
+  programs.gnupg.agent = {
+    enable = true;
+    pinentryFlavor = "curses";
+    enableSSHSupport = true;
+  };
+
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true;

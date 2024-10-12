@@ -53,6 +53,7 @@
 
     # apps
     audacity
+    brave
     drawing
     easyeffects
     hugin

@@ -15,6 +15,7 @@
       cs367 = "cd ~/School/cs367";
       calq = "qalc";
       calc = "qalc";
+      qalq = "qalc";
       calculator = "qalc";
       calculate = "qalc";
       nix-shell = "nix-shell --command \"zsh\"";

@@ -49,11 +49,13 @@
     bluetuith
     gnupg1
     pinentry-all
+    lazygit
 
     # apps
     audacity
     drawing
     easyeffects
+    hugin
     libqalculate
     libreoffice-qt
     mpv

@@ -81,6 +81,7 @@
 
     # development
     bun
+    deno
     git
     gh
   ];

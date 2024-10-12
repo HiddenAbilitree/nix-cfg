@@ -116,6 +116,7 @@
   programs.gnupg.agent = {
     enable = true;
     enableSSHSupport = true;
+    pinentryPackage = pkgs.pinentry-tty;
   };
   services.pcscd.enable = true;
   programs.steam = {

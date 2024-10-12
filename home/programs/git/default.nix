@@ -3,6 +3,10 @@
   programs.git = {
     enable = true;
     userName = "Eric Zhang";
-    userEmail = "hopeme950@gmail.com";
+    userEmail = "eric@ericzhang.dev";
+    signing = {
+      signByDefault = true;
+      key = "1FC32AD90C0D6FE3";
+    };
   };
 }

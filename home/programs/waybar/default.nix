@@ -29,7 +29,7 @@
           "battery"
         ];
         battery = {
-          format = "{icon} 69%";
+          format = "{icon} {capacity}%";
           format-icons = [
             "󰂎"
             "󰁺"

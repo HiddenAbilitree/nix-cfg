@@ -6,11 +6,6 @@
 { config, pkgs, ... }:
 
 {
-  imports = [
-    # Include the results of the hardware scan.
-    #./hibernate.nix
-    ./hardware-configuration.nix
-  ];
 
   # Bootloader.
   boot = {
@@ -18,8 +13,6 @@
     loader.efi.canTouchEfiVariables = true;
     kernelPackages = pkgs.linuxPackages_latest;
   };
-
-  networking.hostName = "loser"; # Define your hostname.
 
   # Configure network proxy if necessary
   # networking.proxy.default = "http://user:password@proxy:port/";

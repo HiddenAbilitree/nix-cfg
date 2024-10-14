@@ -22,19 +22,38 @@
       ...
     }:
     {
-      nixosConfigurations.loser = nixpkgs.lib.nixosSystem {
-        system = "x86_64-linux";
-        modules = [
-          ./nixos/configuration.nix
-          ./hibernate.nix
-          home-manager.nixosModules.home-manager
-          {
-            home-manager.useGlobalPkgs = true;
-            home-manager.useUserPackages = true;
-            home-manager.users.ezhang = import ./home/home.nix;
-            home-manager.extraSpecialArgs = inputs;
-          }
-        ];
+      nixosConfigurations = {
+        loser = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./nixos/configuration.nix
+            ./fw13/hardware-configuration.nix
+            { networking.hostname = "loser"; }
+
+            home-manager.nixosModules.home-manager
+            {
+              home-manager.useGlobalPkgs = true;
+              home-manager.useUserPackages = true;
+              home-manager.users.ezhang = import ./home/home.nix;
+              home-manager.extraSpecialArgs = inputs;
+            }
+          ];
+        };
+        winner = nixpkgs.lib.nixosSystem {
+          system = "x86_64-linux";
+          modules = [
+            ./nixos/configuration.nix
+            ./bpc/hardware-configuration.nix
+            { networking.hostname = "winner"; }
+            home-manager.nixosModules.home-manager
+            {
+              home-manager.useGlobalPkgs = true;
+              home-manager.useUserPackages = true;
+              home-manager.users.ezhang = import ./home/home.nix;
+              home-manager.extraSpecialArgs = inputs;
+            }
+          ];
+        };
       };
     };
 }

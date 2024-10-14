@@ -8,7 +8,6 @@
   imports = [
     ./programs
     ./services
-
   ];
 
   home = {

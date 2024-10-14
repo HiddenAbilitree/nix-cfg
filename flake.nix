@@ -34,7 +34,7 @@
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
-              home-manager.users.ezhang = import ./home/home.nix;
+              home-manager.users.ezhang = import ./fw13/home/home.nix;
               home-manager.extraSpecialArgs = inputs;
             }
           ];
@@ -49,7 +49,7 @@
             {
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
-              home-manager.users.ezhang = import ./home/home.nix;
+              home-manager.users.ezhang = import ./bpc/home/home.nix;
               home-manager.extraSpecialArgs = inputs;
             }
           ];

@@ -28,7 +28,7 @@
           modules = [
             ./nixos/configuration.nix
             ./fw13/hardware-configuration.nix
-            { networking.hostname = "loser"; }
+            { networking.hostName = "loser"; }
 
             home-manager.nixosModules.home-manager
             {
@@ -44,7 +44,7 @@
           modules = [
             ./nixos/configuration.nix
             ./bpc/hardware-configuration.nix
-            { networking.hostname = "winner"; }
+            { networking.hostName = "winner"; }
             home-manager.nixosModules.home-manager
             {
               home-manager.useGlobalPkgs = true;

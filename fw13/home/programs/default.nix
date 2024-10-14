@@ -1,1 +1,1 @@
-{ }
+{ imports = [ ./hyprland ]; }

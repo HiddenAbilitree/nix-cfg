@@ -24,6 +24,7 @@
         gtk-application-prefer-dark-theme=1
       '';
     };
-    home.sessionVariables.GTK_THEME = "Tokyonight-Storm-B";
   };
+
+  home.sessionVariables.GTK_THEME = "Tokyonight-Storm-B";
 }

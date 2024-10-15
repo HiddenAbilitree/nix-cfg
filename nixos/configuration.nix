@@ -124,6 +124,8 @@
     getty.autologinUser = "ezhang";
     fwupd.enable = true;
     pcscd.enable = true;
+
+    fprintd.enable = true;
     displayManager = {
       sddm = {
         enable = true;
@@ -149,7 +151,6 @@
         variant = "";
       };
 
-      fprintd.enable = true;
     };
 
     gnome.core-utilities.enable = false;

@@ -4,10 +4,10 @@
     enable = true;
     settings = {
       preload = [
-        "/home/ezhang/stuff/wallpapers/water.png"
+        "~/nixos-cfg/wallpapers/1920x1080/mount_fuji.png"
       ];
       wallpaper = [
-        ",/home/ezhang/stuff/wallpapers/water.png"
+        ",~/nixos-cfg/wallpapers/1920x1080/mount_fuji.png"
       ];
     };
   };

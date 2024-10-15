@@ -9,6 +9,10 @@
       enable = true;
       extraConfig = builtins.readFile ./hyprland.conf;
       settings = {
+        "$menu" = "rofi -show drun";
+        "$mod" = "SUPER";
+        "$browser" = "firefox";
+        "$terminal" = "kitty";
         bind = builtins.concatLists (
           builtins.genList (
             i:

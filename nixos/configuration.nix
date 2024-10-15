@@ -143,7 +143,7 @@
         wayland = true;
       };
 
-      desktopManager.gnome.enable = true;
+      desktopManager.gnome.enable = false;
       xkb = {
         layout = "us";
         variant = "";
@@ -151,8 +151,6 @@
     };
 
     gnome.core-utilities.enable = false;
-
-    desktopManager.gnome.enable = false;
 
     pipewire = {
       enable = true;

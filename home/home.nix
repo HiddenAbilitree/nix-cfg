@@ -62,6 +62,7 @@
     mpv
     nautilus
     networkmanagerapplet
+    nwg-look
     obsidian
     pavucontrol
     polychromatic

@@ -132,7 +132,7 @@
             empty = "";
           };
           "persistent-workspaces" =
-            if networking.hostName == "loser" then
+            if config.networking.hostName == "loser" then
               {
                 "*" = 9;
               }

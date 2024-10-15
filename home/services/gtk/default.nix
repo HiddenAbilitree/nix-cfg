@@ -6,6 +6,10 @@
 {
   gtk = {
     enable = true;
-    theme.package = pkgs.tokyonight-gtk-theme;
+    theme = {
+
+      name = "storm";
+      package = pkgs.tokyonight-gtk-theme;
+    };
   };
 }

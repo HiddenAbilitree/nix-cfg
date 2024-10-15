@@ -8,7 +8,7 @@
     enable = true;
     theme = {
 
-      name = "storm";
+      name = "Storm-BL";
       package = pkgs.tokyonight-gtk-theme;
     };
   };

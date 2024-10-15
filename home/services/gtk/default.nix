@@ -7,7 +7,7 @@
   gtk = {
     enable = true;
     theme = {
-      name = "Tokyonight-Dark-Storm-BL";
+      name = "Dark-Storm-BL";
       package = pkgs.tokyonight-gtk-theme;
     };
   };

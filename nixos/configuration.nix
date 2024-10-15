@@ -138,12 +138,11 @@
 
       excludePackages = [ pkgs.xterm ];
 
-      gnome = {
-        enable = true;
+      desktopManager.gnome = {
+        enable = false;
         wayland = true;
       };
 
-      desktopManager.gnome.enable = false;
       xkb = {
         layout = "us";
         variant = "";

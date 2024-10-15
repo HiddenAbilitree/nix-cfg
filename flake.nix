@@ -42,8 +42,8 @@
         winner = nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
+            /etc/nixos/hardware-configuration.nix
             ./nixos/configuration.nix
-            ./bpc/hardware-configuration.nix
             { networking.hostName = "winner"; }
             home-manager.nixosModules.home-manager
             {

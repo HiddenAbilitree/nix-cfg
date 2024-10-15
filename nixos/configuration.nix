@@ -74,11 +74,11 @@
   # allow unfree haha
   nixpkgs.config.allowUnfree = true;
 
-  # razer
-  hardware.openrazer.enable = true;
-  hardware.bluetooth.enable = true;
-  hardware.bluetooth.powerOnBoot = true;
-
+  hardware = {
+    openrazer.enable = true;
+    bluetooth.enable = true;
+    bluetooth.powerOnBoot = true;
+  };
   environment = {
     sessionVariables.NIXOS_OZONE_WL = "1";
     systemPackages = with pkgs; [
@@ -89,6 +89,7 @@
       nixfmt-rfc-style
       ripgrep
       fd
+      glib
       wget
       openrazer-daemon
       wl-clipboard

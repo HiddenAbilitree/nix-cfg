@@ -132,7 +132,7 @@
     xserver = {
       enable = true;
       displayManager.gdm = {
-        enable = true;
+        enable = false;
         wayland = true;
       };
 
@@ -140,7 +140,6 @@
 
       desktopManager.gnome = {
         enable = false;
-        wayland = true;
       };
 
       xkb = {

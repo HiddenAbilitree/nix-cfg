@@ -5,7 +5,6 @@
 }:
 {
   gtk = {
-    enable = true;
 
     # iconTheme = {
     #   name = "Tokyonight-Dark";

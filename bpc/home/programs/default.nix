@@ -1,7 +1,7 @@
 {
   imports = [
     ./git
-    ./hyprpaper
     ./hyprland
+    ./hyprpaper
   ];
 }

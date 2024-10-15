@@ -2,6 +2,5 @@
 {
   programs.hyprlock = {
     enable = false;
-
   };
 }

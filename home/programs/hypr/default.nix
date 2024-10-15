@@ -6,7 +6,7 @@
 {
   wayland.windowManager = {
     hyprland = {
-      "$menu" = "rofi - show drun";
+      "$menu" = "rofi -show drun";
       "$mod" = "SUPER";
       "$browser" = "firefox";
       "$terminal" = "kitty";

@@ -135,6 +135,20 @@
     desktopManager.gnome.enable = true;
   };
 
+  services = {
+    displayManager = {
+      sddm = {
+        enable = true;
+        wayland = true;
+      };
+      gdm = {
+        enable = false;
+        wayland = true;
+      };
+    };
+    desktopManager.gnome.enable = false;
+  };
+
   services.gnome.core-utilities.enable = false;
 
   # audio

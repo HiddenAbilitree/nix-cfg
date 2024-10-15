@@ -132,7 +132,7 @@
             empty = "";
           };
           "persistent-workspaces" =
-            if config.networking.hostName == "loser" then
+            if nixos.config.networking.hostName == "loser" then
               {
                 "*" = 9;
               }

@@ -7,7 +7,7 @@
   gtk = {
     enable = true;
     theme = {
-      name = "Tokyonight-Storm";
+      name = "Tokyonight-Storm-BL-LB";
       package = pkgs.tokyonight-gtk-theme;
     };
     # iconTheme = {

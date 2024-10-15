@@ -4,7 +4,6 @@
     ./git
     ./hypr
     ./hyprlock
-    ./hyprpaper
     ./kitty
     ./neovim
     ./pipewire

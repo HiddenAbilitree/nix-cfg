@@ -1,17 +1,13 @@
-{
-  pkgs,
-  lib,
-  ...
-}:
+{ pkgs, ... }:
 {
   gtk = {
     enable = true;
+    iconTheme = {
+      name = "Papirus-dark";
+      package = pkgs.papirus-icon-theme;
+    };
     theme = {
       name = "Tokyonight-Storm-B";
-      package = pkgs.tokyonight-gtk-theme;
-    };
-    iconTheme = {
-      name = "Tokyonight-Dark";
       package = pkgs.tokyonight-gtk-theme;
     };
     gtk3.extraConfig = {
@@ -25,6 +21,5 @@
       '';
     };
   };
-
   home.sessionVariables.GTK_THEME = "Tokyonight-Storm-B";
 }

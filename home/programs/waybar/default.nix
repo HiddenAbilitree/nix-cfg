@@ -133,7 +133,7 @@
             empty = "";
           };
           "persistent-workspaces" =
-            if nixos.config.networking.hostName == "loser" then
+            if builtins.readFile /proc/sys/kernel/hostname == "loser" then
               {
                 "*" = 9;
               }

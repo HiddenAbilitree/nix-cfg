@@ -83,8 +83,6 @@
       firefox
       fprintd
 
-      phinger-cursors
-
       # utils
       nixfmt-rfc-style
       ripgrep
@@ -122,10 +120,11 @@
 
   services = {
     getty.autologinUser = "ezhang";
-    fwupd.enable = true;
-    pcscd.enable = true;
 
+    fwupd.enable = true; # firmware updates
+    pcscd.enable = true;
     fprintd.enable = true;
+
     displayManager = {
       sddm = {
         enable = true;

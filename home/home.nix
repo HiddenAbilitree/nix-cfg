@@ -33,7 +33,7 @@
     hyprshot
 
     # themes
-    tokyonight-gtk-theme
+    phinger-cursors
 
     # notifications
     swaynotificationcenter

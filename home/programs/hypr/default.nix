@@ -10,7 +10,6 @@
       "$mod" = "SUPER";
       "$browser" = "firefox";
       "$terminal" = "kitty";
-
       enable = true;
       extraConfig = builtins.readFile ./hyprland.conf;
     };

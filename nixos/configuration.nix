@@ -21,34 +21,35 @@
   # Enable networking
   networking.networkmanager.enable = true;
 
-  environment.sessionVariables.NIXOS_OZONE_WL = "1";
-
   nix.settings.experimental-features = [
     "nix-command"
     "flakes"
   ];
 
   # Set your time zone.
-  time.timeZone = "America/New_York";
-
-  # Select internationalisation properties.
-  i18n.defaultLocale = "en_US.UTF-8";
-
-  i18n.extraLocaleSettings = {
-    LC_ADDRESS = "en_US.UTF-8";
-    LC_IDENTIFICATION = "en_US.UTF-8";
-    LC_MEASUREMENT = "en_US.UTF-8";
-    LC_MONETARY = "en_US.UTF-8";
-    LC_NAME = "en_US.UTF-8";
-    LC_NUMERIC = "en_US.UTF-8";
-    LC_PAPER = "en_US.UTF-8";
-    LC_TELEPHONE = "en_US.UTF-8";
-    LC_TIME = "en_US.UTF-8";
+  time = {
+    timeZone = "America/New_York";
+    hardwareClockInLocalTime = true;
   };
 
+  # Select internationalisation properties.
+  i18n = {
+    defaultLocale = "en_US.UTF-8";
+
+    extraLocaleSettings = {
+      LC_ADDRESS = "en_US.UTF-8";
+      LC_IDENTIFICATION = "en_US.UTF-8";
+      LC_MEASUREMENT = "en_US.UTF-8";
+      LC_MONETARY = "en_US.UTF-8";
+      LC_NAME = "en_US.UTF-8";
+      LC_NUMERIC = "en_US.UTF-8";
+      LC_PAPER = "en_US.UTF-8";
+      LC_TELEPHONE = "en_US.UTF-8";
+      LC_TIME = "en_US.UTF-8";
+    };
+  };
   # Configure keymap in X11
 
-  programs.zsh.enable = true;
   users.users.ezhang = {
     isNormalUser = true;
     description = "Eric Zhang";
@@ -70,58 +71,59 @@
     })
   ];
 
-  services.getty.autologinUser = "ezhang";
-
-  # firmware updates
-  services.fwupd.enable = true;
-
   # allow unfree haha
   nixpkgs.config.allowUnfree = true;
-
-  # x-term >:(
 
   # razer
   hardware.openrazer.enable = true;
 
-  environment.systemPackages = with pkgs; [
-    firefox
-    fprintd
+  environment = {
+    sessionVariables.NIXOS_OZONE_WL = "1";
+    systemPackages = with pkgs; [
+      firefox
+      fprintd
 
-    phinger-cursors
+      phinger-cursors
 
-    # utils
-    nixfmt-rfc-style
-    ripgrep
-    fd
-    wget
-    openrazer-daemon
-    wl-clipboard
-    playerctl
-    brightnessctl
-    zip
-    unzip
-  ];
-  programs.gnupg.agent = {
-    enable = true;
-    enableSSHSupport = true;
-    pinentryPackage = pkgs.pinentry-tty;
-  };
-  services.pcscd.enable = true;
-  programs.steam = {
-    enable = true;
-    remotePlay.openFirewall = true;
-    dedicatedServer.openFirewall = true;
-    localNetworkGameTransfers.openFirewall = true;
+      # utils
+      nixfmt-rfc-style
+      ripgrep
+      fd
+      wget
+      openrazer-daemon
+      wl-clipboard
+      playerctl
+      brightnessctl
+      zip
+      unzip
+    ];
   };
 
-  programs.thunar.enable = true;
-  services.fprintd.enable = true;
+  programs = {
+    gnupg.agent = {
+      enable = true;
+      enableSSHSupport = true;
+      pinentryPackage = pkgs.pinentry-tty;
+    };
 
-  time.hardwareClockInLocalTime = true;
+    zsh.enable = true;
 
-  programs.hyprland.enable = true;
+    steam = {
+      enable = true;
+      remotePlay.openFirewall = true;
+      dedicatedServer.openFirewall = true;
+      localNetworkGameTransfers.openFirewall = true;
+    };
+
+    thunar.enable = true;
+
+    hyprland.enable = true;
+  };
 
   services = {
+    getty.autologinUser = "ezhang";
+    fwupd.enable = true;
+    pcscd.enable = true;
     displayManager = {
       sddm = {
         enable = true;
@@ -146,6 +148,8 @@
         layout = "us";
         variant = "";
       };
+
+      fprintd.enable = true;
     };
 
     gnome.core-utilities.enable = false;

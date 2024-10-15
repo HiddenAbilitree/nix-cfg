@@ -7,6 +7,7 @@
 {
   programs.waybar = {
     enable = true;
+    extraConfig = "";
     settings = [
       {
         reload_on_style_change = true;
@@ -131,9 +132,7 @@
             persistent = "";
             empty = "";
           };
-          "persistent-workspaces" = {
-            "*" = 9;
-          };
+
         };
         pulseaudio = {
           scroll-step = 1;

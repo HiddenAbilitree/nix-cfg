@@ -22,6 +22,7 @@
       nix-update = "sudo nix flake update /home/ezhang/nixos-cfg/";
       blue = "bluetuith";
       bluetooth = "bluetuith";
+      lg = "lazygit";
     };
     oh-my-zsh = {
       enable = true;

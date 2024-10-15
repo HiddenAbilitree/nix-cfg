@@ -47,10 +47,6 @@
   };
 
   # Configure keymap in X11
-  services.xserver.xkb = {
-    layout = "us";
-    variant = "";
-  };
 
   programs.zsh.enable = true;
   users.users.ezhang = {
@@ -83,7 +79,6 @@
   nixpkgs.config.allowUnfree = true;
 
   # x-term >:(
-  services.xserver.excludePackages = [ pkgs.xterm ];
 
   # razer
   hardware.openrazer.enable = true;
@@ -126,43 +121,52 @@
 
   programs.hyprland.enable = true;
 
-  services.xserver = {
-    enable = true;
-    displayManager.gdm = {
-      enable = true;
-      wayland = true;
-    };
-    desktopManager.gnome.enable = true;
-  };
-
   services = {
     displayManager = {
       sddm = {
         enable = true;
         wayland.enable = true;
       };
-      gdm = {
-        enable = false;
+    };
+
+    xserver = {
+      enable = true;
+      displayManager.gdm = {
+        enable = true;
         wayland = true;
       };
-    };
-    desktopManager.gnome.enable = false;
-  };
 
-  services.gnome.core-utilities.enable = false;
+      excludePackages = [ pkgs.xterm ];
+
+      gnome = {
+        enable = true;
+        wayland = true;
+      };
+
+      desktopManager.gnome.enable = true;
+      xkb = {
+        layout = "us";
+        variant = "";
+      };
+    };
+
+    gnome.core-utilities.enable = false;
+
+    desktopManager.gnome.enable = false;
+
+    pipewire = {
+      enable = true;
+      alsa.enable = true;
+
+      #alsa.support32Bit = true;
+      pulse.enable = true;
+      # If you want to use JACK applications, uncomment this
+      #jack.enable = true;
+    };
+  };
 
   # audio
   security.rtkit.enable = true;
-
-  services.pipewire = {
-    enable = true;
-    alsa.enable = true;
-
-    #alsa.support32Bit = true;
-    pulse.enable = true;
-    # If you want to use JACK applications, uncomment this
-    #jack.enable = true;
-  };
 
   system.stateVersion = "24.05";
 }

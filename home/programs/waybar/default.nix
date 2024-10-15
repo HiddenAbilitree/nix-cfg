@@ -1,5 +1,5 @@
 {
-  nixos,
+  nixosConfig,
   config,
   pkgs,
   lib,

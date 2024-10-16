@@ -48,7 +48,6 @@
     gambit-chess
     bluetuith
     gnupg1
-    pinentry-all
     lazygit
 
     # apps

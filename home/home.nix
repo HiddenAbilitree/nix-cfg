@@ -57,8 +57,6 @@
     easyeffects
     hugin
     libqalculate
-    mpv
-    nautilus
     networkmanagerapplet
     obsidian
     pavucontrol

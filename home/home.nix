@@ -58,7 +58,6 @@
     easyeffects
     hugin
     libqalculate
-    libreoffice-qt
     mpv
     nautilus
     networkmanagerapplet

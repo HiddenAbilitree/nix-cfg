@@ -3,7 +3,7 @@
   programs.rofi = {
     enable = true;
     terminal = "${pkgs.kitty}/bin/kitty";
-    font = "DejaVu Serif 12";
+    font = "DejaVu Sans 12";
     package = pkgs.rofi-wayland;
     theme = ./theme.rasi;
     extraConfig = {

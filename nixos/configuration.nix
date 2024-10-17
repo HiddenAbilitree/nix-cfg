@@ -82,6 +82,7 @@
 
     fontconfig.defaultFonts = {
       monospace = [
+        "JetBrainsMono"
         "DejaVu Sans Mono"
         "Noto Sans Mono CJK SC"
         "Noto Sans Mono CJK TC"

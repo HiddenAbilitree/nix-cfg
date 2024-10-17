@@ -89,12 +89,14 @@
       ];
 
       sansSerif = [
+        "JetBrainsMono"
         "DejaVu Sans"
         "Noto Sans CJK SC"
         "Noto Sans CJK TC"
       ];
 
       serif = [
+        "JetBrainsMono"
         "DejaVu Serif"
         "Noto Serif CJK SC"
         "Noto Serif CJK TC"

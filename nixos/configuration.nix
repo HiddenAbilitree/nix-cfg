@@ -62,15 +62,44 @@
     shell = pkgs.zsh;
   };
 
-  fonts.packages = with pkgs; [
-    (nerdfonts.override {
-      fonts = [
-        "FiraCode"
-        "JetBrainsMono"
-      ];
-    })
-  ];
+  fonts = {
+    packages = with pkgs; [
+      (nerdfonts.override {
+        fonts = [
+          "FiraCode"
+          "JetBrainsMono"
+        ];
+      })
+      "dejavu_fonts"
+      "noto-fonts"
+      "noto-fonts-extra"
+      "babelstone-han"
+      "noto-fonts-cjk-sans"
+      "noto-fonts-cjk-serif"
+      "ubuntu_font_family"
+      "liberation_ttf"
+    ];
 
+    fontconfig.defaultFonts = {
+      monospace = [
+        "DejaVu Sans Mono"
+        "Noto Sans Mono CJK SC"
+        "Noto Sans Mono CJK TC"
+      ];
+
+      sansSerif = [
+        "DejaVu Sans"
+        "Noto Sans CJK SC"
+        "Noto Sans CJK TC"
+      ];
+
+      serif = [
+        "DejaVu Serif"
+        "Noto Serif CJK SC"
+        "Noto Serif CJK TC"
+      ];
+    };
+  };
   # allow unfree haha
   nixpkgs.config.allowUnfree = true;
 

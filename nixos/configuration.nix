@@ -121,9 +121,9 @@
       fprintd
 
       (catppuccin-sddm.override {
-        flavor = "mocha";
-        # font = "Noto Sans";
-        # fontSize = "9";
+        flavor = "macchiato";
+        font = "JetBrainsMono";
+        fontSize = "12";
         # # background = "${./wallpaper.png}";
         loginBackground = true;
       })

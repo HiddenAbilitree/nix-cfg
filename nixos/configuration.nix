@@ -70,13 +70,14 @@
           "JetBrainsMono"
         ];
       })
-      "noto-fonts"
-      "noto-fonts-extra"
-      "babelstone-han"
-      "noto-fonts-cjk-sans"
-      "noto-fonts-cjk-serif"
-      "ubuntu_font_family"
-      "liberation_ttf"
+      dejavu_fonts
+      noto-fonts
+      noto-fonts-extra
+      babelstone-han
+      noto-fonts-cjk-sans
+      noto-fonts-cjk-serif
+      ubuntu_font_family
+      liberation_ttf
     ];
 
     fontconfig.defaultFonts = {

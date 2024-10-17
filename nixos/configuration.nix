@@ -120,6 +120,15 @@
       firefox
       fprintd
 
+      catppuccin-sddm.override
+      {
+        flavor = "mocha";
+        font = "Noto Sans";
+        fontSize = "9";
+        background = "${./wallpaper.png}";
+        loginBackground = true;
+      }
+
       # utils
       nixfmt-rfc-style
       ripgrep
@@ -160,13 +169,15 @@
     getty.autologinUser = "ezhang";
 
     fwupd.enable = true; # firmware updates
-    pcscd.enable = true;
+    # pcscd.enable = true;
     fprintd.enable = true;
 
     displayManager = {
       sddm = {
         enable = true;
         wayland.enable = true;
+        theme = "catppuccin-mocha";
+        package = pkgs.kdePackages.sddm;
       };
     };
 

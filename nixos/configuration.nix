@@ -70,7 +70,6 @@
           "JetBrainsMono"
         ];
       })
-      "dejavu_fonts"
       "noto-fonts"
       "noto-fonts-extra"
       "babelstone-han"

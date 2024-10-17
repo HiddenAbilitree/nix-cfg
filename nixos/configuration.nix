@@ -83,6 +83,7 @@
     fontconfig.defaultFonts = {
       monospace = [
         "JetBrainsMono"
+        "FiraCode"
         "DejaVu Sans Mono"
         "Noto Sans Mono CJK SC"
         "Noto Sans Mono CJK TC"
@@ -90,6 +91,7 @@
 
       sansSerif = [
         "JetBrainsMono"
+        "FiraCode"
         "DejaVu Sans"
         "Noto Sans CJK SC"
         "Noto Sans CJK TC"
@@ -97,6 +99,7 @@
 
       serif = [
         "JetBrainsMono"
+        "FiraCode"
         "DejaVu Serif"
         "Noto Serif CJK SC"
         "Noto Serif CJK TC"

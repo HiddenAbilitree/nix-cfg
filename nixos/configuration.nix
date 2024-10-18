@@ -173,7 +173,7 @@
 
     displayManager = {
       sddm = {
-        enable = true;
+        enable = false;
         wayland.enable = true;
         theme = "catppuccin-macchiato";
         package = pkgs.kdePackages.sddm;
@@ -183,7 +183,7 @@
     xserver = {
       enable = true;
       displayManager.gdm = {
-        enable = false;
+        enable = true;
         wayland = true;
       };
 

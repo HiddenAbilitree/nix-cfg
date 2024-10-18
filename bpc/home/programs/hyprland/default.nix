@@ -22,8 +22,8 @@
             [
               "$mod,code:1${toString i}, workspace, ${toString ws}"
               "$mod Caps_Lock,code:1${toString i}, workspace, 1${toString ws}"
-              "$mod SHIFT Caps_Lock,code:1${toString i}, movetoworkspace, 1${toString ws}"
-              "$mod SHIFT, code:1${toString i}, movetoworkspace, ${toString ws}"
+              "$mod TAB Caps_Lock,code:1${toString i}, movetoworkspace, 1${toString ws}"
+              "$mod TAB, code:1${toString i}, movetoworkspace, ${toString ws}"
             ]
           ) 9
         );

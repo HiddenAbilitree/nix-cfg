@@ -1,4 +1,9 @@
-{ config, pkgs, ... }:
+{
+  nixosConfig,
+  config,
+  pkgs,
+  ...
+}:
 {
   programs.zsh = {
     enable = true;

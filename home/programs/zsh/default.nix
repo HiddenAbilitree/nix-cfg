@@ -9,7 +9,7 @@
     initExtra = "fastfetch";
     shellAliases = {
       cfg = "code ~/nixos-cfg/";
-      rebuild = "git -C ~/nixos-cfg/ add -A && git -C ~/nixos-cfg/ commit -am update; sudo nixos-rebuild switch --flake ~/nixos-cfg/# && source ~/.zshrc";
+      rebuild = "git -C ~/nixos-cfg/ add -A && git -C ~/nixos-cfg/ commit -am update; sudo nixos-rebuild switch --flake ~/nixos-cfg/#${nixosConfig.networking.hostName} && source ~/.zshrc";
       nix-clear = "sudo nix-collect-garbage -d; sudo /run/current-system/bin/switch-to-configuration boot";
       fetch = "fastfetch\nsource /etc/profiles/per-user/$USER/etc/profile.d/hm-session-vars.sh";
       cs367 = "cd ~/School/cs367";
